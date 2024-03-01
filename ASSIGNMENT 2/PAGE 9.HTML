@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        .background { background-color: #b5d7a0; }
+    .flex-row { display: flex; gap: 20px; }
+    .flex-column { display: flex; flex-direction: column; }
+    .align-center { justify-content: center; align-items: center; }
+    .italic-bold { font: italic 800 48px Inter, sans-serif; color: #000; }
+    .contact-text, .website-text, .address-text { font-family: Inter, sans-serif; font-style: italic; }
+    .phone-text { font-family: Inter, sans-serif; font-style: italic; flex-grow: 1; }
+    .contact-text, .phone-text { font-size: 48px; color: #a43636; font-weight: 800; }
+    .rounded-img { border-radius: 50%; }
+    .auto-width { width: auto; }
+    .full-width { width: 100%; }
+    .space-between { justify-content: space-between; }
+    .contact-info, .website-info, .address-info { background-color: rgba(217, 217, 217, 0.1); }
+    .padding { padding: 10px; }
+    .margin-top { margin-top: 20px; }
+    .text-center { text-align: center; }
+
+    @media (max-width: 991px) {
+        .flex-column-mobile { flex-direction: column; align-items: stretch; gap: 0px; }
+        .full-width-mobile { width: 100%; }
+        .mobile-font-size { font-size: 40px; }
+        .mobile-padding { padding: 40px 20px 0; }
+        .mobile-margin-top { margin-top: 31px; }
+    }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="flex-row">
+            <section class="flex-column full-width margin-top">
+                <header class="align-center italic-bold mobile-margin-top mobile-padding">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4fa89b273798b96f7985b2b50b15f17a4021f72995e0c110cbb6b973ed53c343?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Digital Gardening" class="full-width" />
+                    The Digital Gardening
+                </header>
+            </section>
+            <section class="flex-column full-width">
+                <div class="align-center">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5fe90736157a2b4006327e9240aefd1410e75efcf71a451b6c1141d5417ea4d8?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Contact Us Icon" class="rounded-img auto-width" />
+                    <button class="contact-button">Contact Us</button>
+                </div>
+                <div class="contact-info space-between padding">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/299954216199fb4ce6a39ded3d8b5e21cf98f8fae7d01a79668153e2da157f17?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Phone Icon" class="rounded-img auto-width" />
+                    <div class="phone-text">123-456-7890</div>
+                </div>
+                <aside class="website-info margin-top padding">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c3b3e5f5e90ebf65532f9b424aac83576e2ad1d00b090c33950827144114330?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Website Icon" class="rounded-img auto-width" />
+                    <div class="website-text text-center">WWW.THEDIGITALGARDENING.COM</div>
+                </aside>
+                <footer class="address-info space-between margin-top padding">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/daed582bd308f2f7dff87182a9bb124ee7f04f1c0fcb3fe6075a007a21064638?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Location Icon" class="rounded-img auto-width" />
+                    <div class="address-text">400 Eubank Blvd Town Albuquerque, New York City.</div>
+                </footer>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Gardening Portfolio</title>
+<style>
+  body {
+    background-color: #fff;
+    font-family: Itim, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(12, 243, 62) ;
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    color: #000;
+  }
+  .navigation-bar {
+    background-color: rgba(0, 255, 102, 0.01);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 41px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .title {
+    font-size: 48px;
+  }
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  .menu-item {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  .menu-item:hover {
+    color: #007bff;
+  }
+  .portfolio-header {
+    margin-top: 20px;
+    font-size: 64px;
+    text-align: center;
+  }
+  .portfolio-description {
+    margin-top: 153px;
+    font-size: 24px;
+    padding: 0 20px;
+    text-align: justify;
+  }
+  @media (max-width: 991px) {
+    .navigation-bar {
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .title, .portfolio-header, .portfolio-description {
+      font-size: 40px;
+    }
+  }
+</style>
+</head>
+<body>
+5
+<main class="container">
+  <header class="navigation-bar">
+    <h1 class="title">THE DIGITAL GARDENING</h1>
+    <nav class="menu">
+      <button onclick="onMenuItemClick('home')" class="menu-item">HOME</button>
+      <button onclick="onMenuItemClick('services')" class="menu-item">SERVICES</button>
+      <button onclick="onMenuItemClick('about-us')" class="menu-item">ABOUT US</button>
+      <button onclick="onMenuItemClick('contact-us')" class="menu-item">CONTACT US</button>
+    </nav>
+  </header>
+  <section>
+    <h2 class="portfolio-header">OUR PORTFOLIO</h2>
+    <p class="portfolio-description">
+      Welcome to The Digital Gardening, where creativity blooms and digital landscapes flourish.
+
+      At The Digital Gardening, we specialize in cultivating online experiences that captivate, engage, and inspire. Just like a skilled gardener tends to every detail of their garden, we meticulously craft digital solutions tailored to your unique needs and aspirations.
+      
+      Our team of digital artisans combines expertise in web design, graphic design, and digital marketing to bring your vision to life. Whether you're a budding entrepreneur looking to establish your online presence or an established business seeking to grow your digital footprint, we're here to help you thrive in the ever-evolving digital ecosystem.
+      
+      From elegant websites that enchant visitors to captivating visuals that tell your story, we harness the power of creativity and innovation to transform your ideas into digital masterpieces. With a keen eye for detail and a passion for excellence, we cultivate digital experiences that leave a lasting impression.
+      
+      But our commitment goes beyond just creating beautiful designs. We're dedicated to nurturing long-term relationships with our clients, guiding them through every step of their digital journey. With personalized attention and unparalleled expertise, we're your trusted partner in cultivating success in the digital realm.
+      
+      So whether you're ready to plant the seeds of your online presence or cultivate new growth in your existing digital landscape, The Digital Gardening is here to help you flourish. Let's grow together and watch your digital dreams blossom into reality.
+
+    </p>
+  </section>
+</main>
+</body>
+</html>

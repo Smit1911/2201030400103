@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR MISSION</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 28px;
+        }
+
+        @media (max-width: 991px) {
+            .container {
+                padding: 20px;
+            }
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .flex-container {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0px;
+            }
+        }
+
+        .image-section,
+        .content-section {
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
+        }
+
+        .image-section {
+            width: 50%;
+        }
+
+        .content-section {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .image-section,
+            .content-section {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+
+        .image,
+        .additional-image {
+            width: 100%;
+            margin-top: 20px;
+            object-fit: cover;
+        }
+
+        .mission-statement {
+            font-size: 40px;
+            margin-top: 51px;
+            text-align: center;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 27px 17px 0 0;
+            font-size: 16px;
+        }
+
+        .highlight {
+            background-color: #ff1717;
+            border-radius: 50%;
+            padding: 25px;
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .impact-statement {
+            margin-top: 11px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #6bfe09;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+
+        .nav-links li a:hover {
+            background-color: #555;
+        }
+
+        .menu-icon {
+            display: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="#">THE DIGITAL GARDENING</a></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+    <div class="container">
+        <div class="flex-container">
+            <section class="image-section">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/c470a506e374c38077507f4efaaf47773c235e77604397d167fbfbee28ee0004?apiKey=2239178408694857bf023178c8bf0ad0&"
+                    alt="An inspirational educational setting" class="image" />
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/aca2eaa92805364285a45b8f1f6fdcd742af2b8df56b9948f18586d051df6e59?apiKey=2239178408694857bf023178c8bf0ad0&"
+                    alt="Group collaboration" class="additional-image" />
+            </section>
+            <section class="content-section">
+                <h1 class="mission-statement">OUR MISSION</h1>
+                <div class="details">
+                    <div class="highlight">1</div>
+                    <p class="impact-statement">We aim to democratize access to information and empower lifelong
+                        learners by providing a platform for exploration and collaboration.</p>
+                    <div class="highlight">2</div>
+                    <p class="impact-statement">Break down barriers to knowledge by providing free and open access to a
+                        diverse range of resources, ensuring that information is
+                        readily available to anyone with an internet connection.</p>
+                    <div class="highlight">3</div>
+                    <p class="impact-statement">Empower lifelong learners. Provide a platform for exploration and
+                        collaboration.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+   
+</body>
+
+</html>

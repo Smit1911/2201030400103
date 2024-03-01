@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.PAGE {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pricing {
+  width: 80%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PricingTable {
+  text-align: center;
+}
+
+.SubscriptionModel {
+  color: black;
+  font-size: 40px;
+  font-family: Myanmar Khyay;
+}
+
+.Package2, .Package1 {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.Frame32 {
+  width: 100%;
+  padding: 20px;
+  background: #043A3A;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Frame32.Package2 {
+  background: #2FB95D;
+}
+
+.Package2 > .Frame32 > .Package2, .Package1 > .Frame32 > .Package1 {
+  color: white;
+  font-size: 21px;
+}
+
+.Frame639 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Frame34 {
+  width: 100%;
+  padding: 20px;
+  background: #2FB95D;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow: hidden;
+  border-bottom: 2px white solid;
+}
+
+.Frame34.Package1 {
+  background: #043A3A;
+  border-bottom: 1px white solid;
+}
+
+.PremiumPlan, .StandardPlan {
+  color: white;
+  font-size: 28px;
+}
+
+.Rs90000, .Rs20000 {
+  color: white;
+  font-size: 67px;
+}
+
+.PerMonth {
+  color: white;
+  font-size: 16px;
+}
+
+.Text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Text > .Text {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.InitialConsultation,
+.LaborCosts,
+.MaterialsAndPlants,
+.EquipmentAndMachinery,
+.PermitsAndInspectionFees {
+  display: flex;
+  align-items: center;
+}
+
+.Group47 {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.Vector {
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid white;
+}
+
+.Button {
+  width: fit-content;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2FB95D;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.Purchase {
+  color: white;
+  font-size: 21px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="PAGE">
+    <div class="Pricing">
+      <div class="Text">
+        <div class="PricingTable">
+          <span>Pricing</span>
+          <span>Table</span>
+        </div>
+      </div>
+      <div class="SubscriptionModel">SUBSCRIPTION MODEL</div>
+      <div class="Package2">
+        <div class="Frame32">
+          <div class="Package2">Package 2</div>
+        </div>
+        <div class="Frame639">
+          <div class="Frame34">
+            <div class="Frame35">
+              <div class="PremiumPlan">Premium Plan</div>
+              <div class="Rs90000">RS 900.00</div>
+              <div class="PerMonth">/Per month</div>
+            </div>
+          </div>
+          <div class="Frame35">
+            <div class="Text">
+              <div class="Text">
+                <div class="InitialConsultation">
+                  <div class="Group47">
+                    <div class="Vector"></div>
+                    <div class="Vector"></div>
+                  </div>
+                  <div class="InitialConsultation">Initial Consultation</div>
+                </div>
+                <div class="LaborCosts">LaborCosts</div>
+                <div class="MaterialsAndPlants">MaterialsAndPlants</div>
+                <div class="EquipmentAndMachinery">EquipmentAndMachinery</div>
+                <div class="PermitsAndInspectionFees">PermitsAndInspectionFees</div>               
+              </div>
+              <div class="Button">
+                <div class="Purchase">Purchase</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Package1">
+        <div class="Frame32">
+          <div class="Package1">Package 1</div>
+        </div>
+        <div class="Frame639">
+          <div class="Frame34">
+            <div class="Frame35">
+              <div class="StandardPlan">Standard Plan</div>
+              <div class="Rs20000">RS 200.00</div>
+              <div class="PerMonth">/Per month</div>
+            </div>
+          </div>
+          <div class="Frame35">
+            <div class="Text">
+              <div class="Text">
+                <div class="InitialConsultation">
+                  <div class="Group47">
+                    <div class="Vector"></div>
+                    <div class="Vector"></div>
+                  </div>
+                <div class="InitialConsultation">Initial Consultation</div>
+                </div>
+                  <div class="LaborCosts">LaborCosts</div>
+                  <div class="MaterialsAndPlants">MaterialsAndPlants</div>
+                  <div class="EquipmentAndMachinery">EquipmentAndMachinery</div>
+                
+
+                <!-- Other content -->
+              </div>
+              <div class="Button">
+                <div class="Purchase">Purchase</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gardening Service</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;900&display=swap">
+<style>
+  body {
+    font-family: 'Jost', sans-serif;
+    background-color: rgba(35, 90, 2, 0.99);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .image-column, .content-column {
+    flex: 1 1 50%;
+    padding: 20px;
+  }
+  .image-column img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .heading-large {
+    font-size: 64px;
+    font-weight: 900;
+  }
+  .heading-small {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .service-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .service-list li {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .service-item-number {
+    display: inline-block;
+    background-color: #d9d9d9;
+    color: #000;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .register-button {
+    background-color: rgba(217, 217, 217, 0.44);
+    border: none;
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  .register-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+<main class="container">
+  <section class="image-column">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b8066ea844d7659eba3428ee41d77e2ff8ccd86765dff401a77758785a446d93?apiKey=2239178408694857bf023178c8bf0ad0&" alt="First Gardening Image">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/edd60f04f0487accfc859fe82e426c05c0ded82e13c0cbcb7184833d3df09b6e?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Second Gardening Image">
+  </section>
+  <section class="content-column">
+    <h1 class="heading-large">GARDENING SERVICE</h1>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5fe90736157a2b4006327e9240aefd1410e75efcf71a451b6c1141d5417ea4d8?apiKey=2239178408694857bf023178c8bf0ad0&" alt="Decorative Garden Image" class="circle-image">
+    <p>We provide a variety of garden services to keep your garden healthy and beautiful</p>
+    <h2 class="heading-small">WE OFFER:</h2>
+    <ul class="service-list">
+      <li><span class="service-item-number">1</span>Mow the garden.</li>
+      <li><span class="service-item-number">2</span>Garden fertilization and weed control.</li>
+      <li><span class="service-item-number">3</span>Tree care, Hedge pruning, flower care.</li>
+      <li><span class="service-item-number">4</span>Maintenance and repair of irrigation systems.</li>
+    </ul>
+    <button class="register-button" onclick="alert('Thanks for your interest!')">REGISTER NOW</button>
+    <a href="https://www.thedigitalgardening.com" target="_blank" class="register-link">WWW.THE DIGITAL GARDENING.COM</a>
+  </section>
+</main>
+
+</body>
+</html>
